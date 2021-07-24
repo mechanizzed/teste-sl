@@ -3,9 +3,9 @@ import { useDispatch } from 'react-redux';
 import { Box, TextField, Button } from '@material-ui/core';
 import { useFormik } from 'formik';
 
-import { Main } from './styles';
-
 import { signIn } from '../../store/User/user.actions';
+
+import { Main } from './styles';
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -16,7 +16,6 @@ const Login = () => {
       password: '',
     },
     onSubmit: (values) => {
-      // console.log(values.email);
       dispatch(signIn(values));
     },
   });
