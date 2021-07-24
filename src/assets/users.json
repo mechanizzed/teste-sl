@@ -1,0 +1,19 @@
+[
+  {
+    "email": "felipemunhoz@santoslab.com",
+    "password": "adminslab",
+    "role": "admin"
+  },
+  {
+    "email": "usuario@santoslab.com",
+    "password": "123456",
+    "role": "user",
+    "propertyIds":[0,1,4]
+  },
+  {
+    "email": "outrousuario@santoslab.com",
+    "password": "qwertyuiop",
+    "role": "user",
+    "propertyIds":[2,3,5]
+  }
+]
